@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url(/3607424.jpg);
   }
   
   #title {
@@ -56,4 +56,8 @@ body {
   
   button[type="submit"]:hover {
     background-color: #3e8e41;
+  }
+
+  .white {
+    color: white;
   }
