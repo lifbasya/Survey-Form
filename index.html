@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="/style.css">
-  </head>
 
-  <body>
-    <div class="white">
-      <h1 id="title">Survey Form</h1>
-      <p id="description">
-        Silakan isi form berikut untuk memberikan feedback Anda.
-      </p>
-    </div>
-    <form id="survey-form">
-      <label id="name-label" for="name">Nama:</label>
-      <input type="text" id="name" placeholder="Masukkan nama Anda" required>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Silakan isi form berikut untuk memberikan feedback Anda.</p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Nama:</label>
+    <input type="text" id="name" placeholder="Masukkan nama Anda" required>
 
       <label id="email-label" for="email">Email:</label>
       <input
@@ -35,12 +32,13 @@
         placeholder="Masukkan umur Anda"
       />
 
-      <label for="dropdown">Pilih opsi:</label>
-      <select id="dropdown">
-        <option disabled selected value="">Pilih opsi</option>
-        <option value="opsi1">Opsi 1</option>
-        <option value="opsi2">Opsi 2</option>
-      </select>
+    <label for="dropdown">Pilih opsi:</label>
+    <select id="dropdown">
+      <option value="">Pilih opsi</option>
+      <option value="opsi1">Opsi 1</option>
+      <option value="opsi2">Opsi 2</option>
+    </select>
+
 
       <p>Jenis Kelamin:</p>
       <label>
