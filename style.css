@@ -1,17 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(3607424.jpg);
   }
   
   #title {
     text-align: center;
-    color: white;
   }
   
   #description {
     text-align: center;
     margin-bottom: 20px;
-    color: white;
   }
   
   #survey-form {
